@@ -14,7 +14,7 @@ atom_feed:
 # Boilerplate for collections and their associated pages
 include: ["_pages"]
 collections:
-  papers:
+  publications:
     output: true
     permalink: /:collection/:path/
 defaults:
@@ -22,8 +22,17 @@ defaults:
       path: ""
     values:
       layout: single
+      classes: wide
       author_profile: true
       share: false
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+      sidebar:
+        - title: "Publications"
+          text: "[&#8592; Back](../)"
 
 # Boilerplate for the theme
 plugins:
