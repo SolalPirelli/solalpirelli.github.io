@@ -57,7 +57,8 @@ It's unlikely undergrad work can lead to a full publication, but there's probabl
 This gave me a clearer idea of what a PhD would be like, including preparing a paper.
 The page limit also ensures time is spent wisely instead of spending ages writing endless pages on all possible related work.
 
-**When verifying, start by modelling _all_ of the environment.**
-I started by modelling the network card only. It was quite a pain to get DPDK to call the real libC in just the right way, and that effort was wasted in retrospect.
-Instead, I should have started by delimiting what was in scope for verification and what was not, and modelling everything not in scope. The scope can always change later,
-and the models may not be exhaustive at first, but having control over the entire environment at all times drastically improves productivity.
+**Extreme modularity is key for verification but not always an engineering priority.**
+Verification is a cooperative process with developers even for automated tools, and this is a good example of it.
+DPDK is relatively modular in the sense that it is made up of separate modules that each do their thing, but internally there are a lot of dependencies between them.
+Thus, verifying a DPDK-based app requires a lot more environment modeling than what should ideally be necessary, even sometimes due to reasons such as eager initialization of variables that may not always be used.
+Thankfully, the renewed focus on smaller apps for containerized deployments might help push engineers towards stricter modularization.

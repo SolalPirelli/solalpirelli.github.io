@@ -7,10 +7,6 @@ repository: "SolalPirelli/solalpirelli.github.io"
 twitter:
   username: SolalPirelli  
 
-# Disable stuff we don't care for
-atom_feed:
-  hide: true
-
 # Boilerplate for collections and their associated pages
 include: ["_pages"]
 collections:

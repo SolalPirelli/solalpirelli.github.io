@@ -22,9 +22,11 @@ others:
 
 ## My Projects
 
-{% assign sorted_publications = site.publications | sort_by: "date" | reversed %}
+Click on each project's title for a short blog post summarizing the project's goals, results, and lessons learned.
+
+{% assign sorted_publications = site.publications | sort_by: "date" | reverse %}
 {% for pub in sorted_publications %}
-  **{{ pub.title }}** <br>
+  **[{{ pub.title }}](./{{ pub.slug }})** <br>
   *{{ pub.authors }}* <br>
   {{ pub.venue }} {% if pub.remarks %}; *{{ pub.remarks }}* {% endif %} <br>
   [DOI]({{ pub.doi }}) / [Paper](./pdf/{{ pub.slug }}.pdf) / [Artifact]({{ pub.artifact }}) / [Video]({{ pub.video }})
