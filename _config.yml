@@ -1,6 +1,6 @@
 # Basic site info
 locale: "en"
-title: "Solal Pirelli's blog"
+title: "Solal Pirelli"
 name: "Solal Pirelli"
 url: "https://solalpirelli.github.io"
 repository: "SolalPirelli/solalpirelli.github.io"
@@ -10,27 +10,27 @@ twitter:
 # Boilerplate for collections and their associated pages
 include: ["_pages"]
 collections:
-  publications:
+  research:
     output: true
     permalink: /:collection/:path/
 defaults:
   - scope:
       path: ""
+      type: research
     values:
-      layout: single
-      classes: wide
-      author_profile: true
-      share: false
+      layout: research
+      sidebar:
+        - title: "Research"
+          text: "[&#8592; Back](../)"
   - scope:
       path: ""
-      type: publications
+      type: posts
     values:
-      layout: publication
-      sidebar:
-        - title: "Publications"
-          text: "[&#8592; Back](../)"
+      layout: wide
+      show_date: true
 
-# Boilerplate for the theme
+# Boilerplate for the theme + redirect support
 plugins:
   - jekyll-include-cache
+  - jekyll-redirect-from
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"

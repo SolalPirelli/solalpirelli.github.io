@@ -1,7 +1,9 @@
 ---
-title: Publications
-permalink: /publications/
-collection: publications
+title: Research
+permalink: /research/
+collection: research
+layout: single
+classes: wide
 others:
   - title: Verifying Software Network Functions with No Verification Expertise
     venue: SOSP '19
@@ -24,20 +26,20 @@ others:
 
 Click on each project's title for a short blog post summarizing the project's goals, results, and lessons learned.
 
-{% assign sorted_publications = site.publications | sort_by: "date" | reverse %}
-{% for pub in sorted_publications %}
-  **[{{ pub.title }}](./{{ pub.slug }})** <br>
-  *{{ pub.authors }}* <br>
-  {{ pub.venue }} {% if pub.remarks %}; *{{ pub.remarks }}* {% endif %} <br>
-  [DOI]({{ pub.doi }}) / [Paper](./pdf/{{ pub.slug }}.pdf) / [Artifact]({{ pub.artifact }}) / [Video]({{ pub.video }})
+{% assign sorted_research = site.research | sort_by: "date" | reverse %}
+{% for item in sorted_research %}
+  **[{{ item.title }}](./{{ item.slug }})** <br>
+  *{{ item.authors }}* <br>
+  {{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %} <br>
+  [DOI]({{ item.doi }}) / [Paper](./pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) / [Video]({{ item.video }})
 {% endfor %}
 
 
 ## Others
 
-{% for pub in page.others %}
-  **{{ pub.title }}** <br>
-  *{{ pub.authors }}* <br>
-  {{ pub.venue }} <br>
-  [DOI]({{ pub.doi }}) / [Paper](./pdf/{{ pub.slug }}.pdf)
+{% for item in page.others %}
+  **{{ item.title }}** <br>
+  *{{ item.authors }}* <br>
+  {{ item.venue }} <br>
+  [DOI]({{ item.doi }}) / [Paper](./pdf/{{ item.slug }}.pdf)
 {% endfor %}
