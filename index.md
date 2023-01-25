@@ -16,4 +16,6 @@ Hi there!
 I'm a PhD student working in the [Dependable Systems Lab](https://dslab.epfl.ch) at [EPFL](https://epfl.ch)
 on making verification and verified systems practical, so that normal developers can use verification techniques in their code.
 
+To reach me, see my [EPFL directory page](https://people.epfl.ch/solal.pirelli/?lang=en).
+
 Check out my [research](./research) and my blog below!
