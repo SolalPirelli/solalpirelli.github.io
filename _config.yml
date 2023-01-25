@@ -26,7 +26,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: wide
+      layout: single
+      classes: wide
       show_date: true
 
 # Boilerplate for the theme + redirect support
