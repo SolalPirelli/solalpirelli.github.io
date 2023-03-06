@@ -31,7 +31,7 @@ Click on each project's title for a short blog post summarizing the project's go
   **[{{ item.title }}](./{{ item.slug }})** <br>
   *{{ item.authors }}* <br>
   {{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %} <br>
-  [DOI]({{ item.doi }}) / [Paper](./pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) / [Video]({{ item.video }})
+  [DOI]({{ item.doi }}) / [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) / [Video]({{ item.video }})
 {% endfor %}
 
 
@@ -41,5 +41,5 @@ Click on each project's title for a short blog post summarizing the project's go
   **{{ item.title }}** <br>
   *{{ item.authors }}* <br>
   {{ item.venue }} <br>
-  [DOI]({{ item.doi }}) / [Paper](./pdf/{{ item.slug }}.pdf)
+  [DOI]({{ item.doi }}) / [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf)
 {% endfor %}
