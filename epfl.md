@@ -46,7 +46,7 @@ this will give you a SCIPER identifier starting with ‘G', add that to your gro
 
 Need a mailing list for an EPFL unit such as a lab, or an EPFL set such as all professors in a specific faculty? You're in luck, those already exist.
 Go to someone's [people.epfl.ch](https://people.epfl.ch) page, click on "Administrative data", log in, then "Automatic distribution lists for..." and you'll see the auto-generated mailing lists they're in.
-For instance, [professeurs.ic@epfl.ch](mailto:professeurs.ic@epfl.ch) is all professors in IC, and [personnel.lauzhack@epfl.ch](mailto:personnel.lauzhack@epfl.ch) is all people in the LauzHack association.
+For instance, `professeurs.ic` is all professors in IC, and `personnel.lauzhack` is all people in the LauzHack association.
 
 To browse lists in general, e.g. by lab, building, affiliation, etc., you can go to [https://cadiwww.epfl.ch/listes](https://cadiwww.epfl.ch/listes). 
 
