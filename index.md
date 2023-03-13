@@ -19,3 +19,5 @@ on making verification and verified systems practical, so that normal developers
 To reach me, see my [EPFL directory page](https://people.epfl.ch/solal.pirelli/?lang=en).
 
 Check out my [research](./research) and my blog below!
+
+_(If you're at EPFL, you may find [my useful things at EPFL doc](./epfl) helpful)_

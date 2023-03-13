@@ -53,7 +53,7 @@ To browse lists in general, e.g. by lab, building, affiliation, etc., you can go
 Some of the bigger auto-generated lists are moderated, one does not simply send any random email to all students.
 
 
-## Printing & Scanning {#printing-&-scanning}
+## Printing & Scanning
 
 Don't bother installing printers, use [campus.epfl.ch](https://campus.epfl.ch) instead.
 
@@ -62,7 +62,7 @@ For maximal tree-killing throughput if you need to, find a black&white-only prin
 Scan batches of documents at once by inserting them at the top of the printer, then selecting "Send to Myself", optionally the two-sided settings if your papers are two-sided, and "Start".
 
 
-## Packages, mail, and deliveries {#packages-mail-and-deliveries}
+## Packages, mail, and deliveries
 
 EPFL technically has the single address "Route Cantonale, 1015 Lausanne", which is not useful for mail purposes. Instead, there are postal stations all over EPFL; IC's station is 14.
 
