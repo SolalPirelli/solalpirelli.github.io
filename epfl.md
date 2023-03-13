@@ -1,4 +1,6 @@
 ---
+layout: single
+classes: wide
 ---
 
 # Useful things at EPFL
