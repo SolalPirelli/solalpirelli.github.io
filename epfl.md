@@ -136,8 +136,8 @@ Use the `ldapsearch` command-line tool on [ldap.epfl.ch](ldap.epfl.ch), e.g., `l
 
 All IC personnel have a personal directory on two network file systems. Both support NFS and CIFS/SMB, although the latter is infinitely easier to use in practice.
 
-**MyNAS** is general-purpose space. All EPFL personnel have 25 GB by default. You can mount your remote directory with
-`sudo mount.cifs //files<X>.epfl.ch/data/<gaspar> -o user=<gaspar>,uid=<local-UID>,gid=<local-GID>,dir_mode=0700,dynperm  /local/mount/point`
+**MyNAS** is general-purpose space. All EPFL personnel have 25 GB by default. You can mount your remote directory by installing the `cifs-utils` and `keyutils` packages then running
+`sudo mount.cifs //files<X>.epfl.ch/data/<gaspar> -o user=<gaspar>,uid=<local-UID>,gid=<local-GID>,dir_mode=0700,dynperm,vers=3.1.1,sec=ntlm  /local/mount/point`
 (replace `<X>` with the server number indicated at [mynas.epfl.ch](https://mynas.epfl.ch), `<gaspar>` with your GASPAR username,
 and `<local-UID>` & `<local-GID>` with the UID and GID of the user on your machine who should have access to the mounted directory;
 you can change `dir_mode` and additionally `file_mode` for finer control of local permissions)
