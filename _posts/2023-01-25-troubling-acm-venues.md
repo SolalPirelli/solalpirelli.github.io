@@ -75,7 +75,7 @@ Take [this paper](https://pubpeer.com/publications/596E5E620475D4328A45B6F9E5750
 
 ## Conclusion
 
-What's the morale of the story?
+What's the moral of the story?
 
 1. **Fraud can pay off**.
 Shadi Aljawarneh has [6082 citations](https://scholar.google.com/citations?user=xm2Hp7YAAAAJ) and an h-index of 38 per Google Scholar,
