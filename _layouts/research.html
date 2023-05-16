@@ -3,13 +3,17 @@ layout: single
 ---
 
 <p>
+  {% if page.doi %}
   <a href="{{ page.doi }}" target="_blank">DOI</a>
   /
+  {% endif %}
   <a href="{{ site.baseurl }}/pdf/{{ page.slug }}.pdf" target="_blank">Paper</a>
   /
   <a href="{{ page.artifact }}" target="_blank">Artifact</a>
+  {% if page.video %}
   /
   <a href="{{ page.video }}" target="_blank">Video</a>
+  {% endif %}
 </p>
 
 {{ content }}

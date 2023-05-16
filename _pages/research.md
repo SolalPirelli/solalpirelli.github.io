@@ -31,7 +31,7 @@ Click on each project's title for a short blog post summarizing the project's go
   **[{{ item.title }}](./{{ item.slug }})** <br>
   *{{ item.authors }}* <br>
   {{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %} <br>
-  [DOI]({{ item.doi }}) / [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) / [Video]({{ item.video }})
+  {% if item.doi %} [DOI]({{ item.doi }}) / {% endif %} [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) {% if item.video %} / [Video]({{ item.video }}) {% endif %}
 {% endfor %}
 
 
