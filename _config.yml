@@ -5,7 +5,10 @@ name: "Solal Pirelli"
 url: "https://solalpirelli.github.io"
 repository: "SolalPirelli/solalpirelli.github.io"
 twitter:
-  username: SolalPirelli  
+  username: SolalPirelli
+
+# Without this Jekyll will not output posts with a future date
+future: true
 
 # Boilerplate for collections and their associated pages
 include: ["_pages"]
