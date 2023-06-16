@@ -20,11 +20,11 @@ I did not originally intend for this to be a public blog post, as ACM has a form
 [a conference](https://pubpeer.com/publications/30E8D340A91FA7A4AAEDF0AF4EF3B2) full of plagiarism, so here I am.
 
 
-## Engineering and "MIS"
+## Engineering and MIS
 
 Let's first look at _ICEMIS_, the _International Conference on Engineering & MIS_.  
-What's MIS? That is presumably left as an exercise for the reader, as it is not defined anywhere.
-The [conference website](https://iares.net/Conference/ICEMIS2015) also suggests a hotel in _Morocco_ for a conference in _Turkey_, so perhaps explanations are not IARES's strong suit.  
+The conference name does not bother to define [MIS](https://en.wikipedia.org/wiki/Management_information_system).
+But the [conference website](https://iares.net/Conference/ICEMIS2015) also suggests a hotel in _Morocco_ for a conference in _Turkey_, so perhaps explanations are not IARES's strong suit.  
 Unlike many conferences, ICEMIS doesn't rotate its program chair: it's always Shadi Aljawarneh.
 
 The 2015 edition is not that bad: it mostly contains papers that look like actual papers. There are already some cracks in the facade, though:
