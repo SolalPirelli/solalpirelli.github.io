@@ -13,8 +13,12 @@ h3 { visibility: hidden; } /* "Recent posts" header */
 
 Hi there!
 
-I'm a PhD student working in the [Dependable Systems Lab](https://dslab.epfl.ch) at [EPFL](https://epfl.ch)
-on making verification and verified systems practical, so that normal developers can use verification techniques in their code.
+I'm a PhD student working in the [Dependable Systems Lab](https://dslab.epfl.ch) at [EPFL](https://epfl.ch) on automated verification of software.
+One part of my work is making verification more practical, so that developers can use verification techniques in [real-world code](/research/klint).
+The other part is showing that making code more verifiable is a desirable goal even outside of verification,
+as it is synonymous with improving software design to [make it faster](/research/tinynf) and [safer](/research/tinynf-langs).
+
+I've also worked on improving the reproducibility of science and on identifying scientific fraud, as you can see in my blog below.
 
 To reach me, see my [EPFL directory page](https://people.epfl.ch/solal.pirelli/?lang=en).
 

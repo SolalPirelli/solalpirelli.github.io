@@ -6,6 +6,7 @@ venue: ICSE '23
 authors: S. Pirelli, G. Candea
 artifact: https://github.com/dslab-epfl/tinynf
 video: https://youtu.be/zMm7rODMjws
+doi: https://doi.org/10.1109/ICSE48619.2023.00183
 ---
 
 Since I had a small, self-contained, and fast driver for Intel's 82599 NIC through the [TinyNF](/research/tinynf) project,
