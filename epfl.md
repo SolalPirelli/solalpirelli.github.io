@@ -104,6 +104,7 @@ Check your Camipro rights on [https://mycamipro.epfl.ch/client/seracc](https://m
 Need to dispose of something bigger or weirder than what the usual recycling points can handle?
 Try the IC trash room, [INM 093.5](https://plan.epfl.ch//?room==INM%20093.5).
 In addition, next to it is a "help yourself" point where you can leave stuff that's still usable but you just don't want any more, and take whatever others have left.
+There is also a smaller trash room for IC in [BC 902](https://plan.epfl.ch/?room==BC%20902).
 
 If that's not enough, EPFL's main trash collection point is below Esplanade, where you can recycle all kinds of things including wood.
 
