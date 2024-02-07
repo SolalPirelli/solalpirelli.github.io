@@ -2,29 +2,25 @@
 ---
 
 <style>
-.sidebar { display: none; }
+.masthead, .sidebar, footer { display: none; }
 .page, .archive { width: 100%; padding: 0; }
-img { float: right; max-width: 15vw; margin-left: 1vw; }
-h2 { margin: 0; }
-h3 { visibility: hidden; } /* "Recent posts" header */
+img { float: right; max-width: 20vw; margin-left: 1vw; }
+.archive__subtitle { visibility: hidden; }
 </style>
 
 ![Photo of me](./img/photo.jpg)
 
-Hi there!
+# {{ site.title }}
+[CV](/pdf/cv.pdf) | [Teaching](https://github.com/sweng-epfl/public) | [Research](./research) | [GitHub](https://github.com/solalpirelli) | [LinkedIn](https://linkedin.com/in/solalpirelli) | [Contact](https://people.epfl.ch/solal.pirelli)
 
-I'm a PhD student working in the [Dependable Systems Lab](https://dslab.epfl.ch) at [EPFL](https://epfl.ch) on automated verification of software.
-One part of my work is making verification more practical, so that developers can use verification techniques in [real-world code](/research/klint).
-The other part is showing that making code more verifiable is a desirable goal even outside of verification,
-as it is synonymous with improving software design to [make it faster](/research/tinynf) and [safer](/research/tinynf-langs).
+&nbsp;
 
-I've co-taught EPFL's [Software Engineering](https://github.com/sweng-epfl/public) course,
+I co-taught EPFL's [Software Engineering](https://github.com/sweng-epfl/public) course,
 and the associated [Software Development Project](https://github.com/sweng-epfl/public/tree/main/project) course.
 
-I've also worked on improving the reproducibility of science and on identifying scientific fraud, as you can see in my blog below.
+I research automated verification of software, making it more practical for [real-world code](/research/klint)
+and showing that verifiability is synonymous with [performance](/research/tinynf) and [safety](/research/tinynf-langs).
 
-To reach me, see my [EPFL directory page](https://people.epfl.ch/solal.pirelli/?lang=en).
-
-Check out my [research](./research) and my blog below!
+I also work on reproducibility and fraud detection in science, as you can see in my blog below.
 
 _(If you're at EPFL, you may find [my useful things at EPFL doc](./epfl) helpful)_
