@@ -4,7 +4,7 @@
 <style>
 .masthead, .sidebar, footer { display: none; }
 .page, .archive { width: 100%; padding: 0; }
-img { float: right; max-width: 20vw; margin-left: 1vw; }
+img { float: right; max-width: max(15vw,20vh); margin-left: 1vw; }
 .archive__subtitle { visibility: hidden; }
 </style>
 
