@@ -1,17 +1,21 @@
-# Basic site info
-locale: "en"
-title: "Solal Pirelli"
-name: "Solal Pirelli"
-url: "https://solalpirelli.github.io"
-repository: "SolalPirelli/solalpirelli.github.io"
-twitter:
-  username: SolalPirelli
+me:
+  name: Solal Pirelli
+  github: solalpirelli
+  linkedin: solalpirelli
+  contact_url: https://people.epfl.ch/solal.pirelli
+  summary: |-
+     I co-taught EPFL's [Software Engineering](https://github.com/sweng-epfl/public) course,
+     and the associated [Software Development Project](https://github.com/sweng-epfl/public/tree/main/project) course.
+
+     I research automated verification of software, making it more practical for [real-world code](/research/klint)
+     and showing that verifiability is synonymous with [performance](/research/tinynf) and [safety](/research/tinynf-langs).
+
+     I also work on reproducibility and fraud detection in science, as you can see in my blog below.
 
 # Without this Jekyll will not output posts with a future date
 future: true
 
 # Boilerplate for collections and their associated pages
-include: ["_pages"]
 collections:
   research:
     output: true
@@ -22,19 +26,12 @@ defaults:
       type: research
     values:
       layout: research
-      sidebar:
-        - title: "Research"
-          text: "[&#8592; Back](../)"
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      classes: wide
-      show_date: true
+      layout: post
 
-# Boilerplate for the theme + redirect support
+# Boilerplate for redirect support
 plugins:
-  - jekyll-include-cache
   - jekyll-redirect-from
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"

@@ -1,26 +1,17 @@
 ---
+layout: default
 ---
 
-<style>
-.masthead, .sidebar, footer { display: none; }
-.page, .archive { width: 100%; padding: 0; }
-img { float: right; max-width: max(15vw,20vh); margin-left: 1vw; }
-.archive__subtitle { visibility: hidden; }
-</style>
+<img alt="Photo of me" src="./img/photo.jpg" style="float: right; max-width: max(15vw,20vh); margin-left: 1vw;" />
 
-![Photo of me](./img/photo.jpg)
+# {{ site.me.name }}
+[CV](./pdf/cv.pdf) | [Teaching](./teaching) | [Research](./research) | [GitHub](https://github.com/{{ site.me.github }}) | [LinkedIn](https://linkedin.com/in/{{ site.me.linkedin }}) | [Contact]({{ site.me.contact_url }})
 
-# {{ site.title }}
-[CV](/pdf/cv.pdf) | [Teaching](https://github.com/sweng-epfl/public) | [Research](./research) | [GitHub](https://github.com/solalpirelli) | [LinkedIn](https://linkedin.com/in/solalpirelli) | [Contact](https://people.epfl.ch/solal.pirelli)
+{{ site.me.summary }}
 
-&nbsp;
+---
 
-I co-taught EPFL's [Software Engineering](https://github.com/sweng-epfl/public) course,
-and the associated [Software Development Project](https://github.com/sweng-epfl/public/tree/main/project) course.
-
-I research automated verification of software, making it more practical for [real-world code](/research/klint)
-and showing that verifiability is synonymous with [performance](/research/tinynf) and [safety](/research/tinynf-langs).
-
-I also work on reproducibility and fraud detection in science, as you can see in my blog below.
-
-_(If you're at EPFL, you may find [my useful things at EPFL doc](./epfl) helpful)_
+{% for post in site.posts %}
+## [{{ post.title }}]({{ post.url }})
+{{ post.excerpt }}
+{% endfor %}

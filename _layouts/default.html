@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {% if page.url == "/" %}
+    <title>{{ site.me.name }}</title>
+  {% else %}
+    <title>{{ page.title }} | {{ site.me.name }}</title>
+  {% endif %}
+
+  <link rel="stylesheet" href="/css/bamboo.css" />
+</head>
+<body>
+  <div>
+    {% if page.url != "/" %}
+      <nav>
+        <strong><a href="/">{{ site.me.name }}</a></strong>
+        <ul>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/teaching">Teaching</a></li>
+          <li><a href="/research">Research</a></li>
+        </ul>
+      </nav>
+      <hr />
+    {% endif %}
+    {{ content }}
+  </div>
+</body>
+</html>

@@ -1,9 +1,6 @@
 ---
 title: Research
-permalink: /research/
-collection: research
-layout: single
-classes: wide
+layout: default
 others:
   - title: Verifying Software Network Functions with No Verification Expertise
     venue: SOSP '19
@@ -22,24 +19,27 @@ others:
     doi: https://doi.org/10.1145/3098822.3098833
 ---
 
-## My Projects
+## My Research Projects
 
-Click on each project's title for a short blog post summarizing the project's goals, results, and lessons learned.
+Each project page contains a short blog post summarizing the project's goals, results, and lessons learned.
 
 {% assign sorted_research = site.research | sort_by: "date" | reverse %}
 {% for item in sorted_research %}
-  **[{{ item.title }}](./{{ item.slug }})** <br>
-  *{{ item.authors }}* <br>
-  {{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %} <br>
-  {% if item.doi %} [DOI]({{ item.doi }}) / {% endif %} [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) {% if item.video %} / [Video]({{ item.video }}) {% endif %}
+### [{{ item.title }}](./{{ item.slug }})
+*{{ item.authors }}*  
+{{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %}  
+{% if item.doi %} [DOI]({{ item.doi }}) / {% endif %} [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) {% if item.video %} / [Video]({{ item.video }}) {% endif %}
 {% endfor %}
 
 
-## Others
+## Projects I've collaborated in
+
+These are projects I was involved in but did not lead.  
+They're still cool, you should check them out!
 
 {% for item in page.others %}
-  **{{ item.title }}** <br>
-  *{{ item.authors }}* <br>
-  {{ item.venue }} <br>
-  [DOI]({{ item.doi }}) / [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf)
+### {{ item.title }}
+*{{ item.authors }}*  
+{{ item.venue }}  
+[DOI]({{ item.doi }}) / [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf)
 {% endfor %}
