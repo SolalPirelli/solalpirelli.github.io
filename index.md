@@ -5,7 +5,13 @@ layout: default
 <img alt="Photo of me" src="./img/photo.jpg" style="float: right; max-width: max(15vw,20vh); margin-left: 1vw;" />
 
 # {{ site.me.name }}
-[CV](./pdf/cv.pdf) | [Teaching](./teaching) | [Research](./research) | [GitHub](https://github.com/{{ site.me.github }}) | [LinkedIn](https://linkedin.com/in/{{ site.me.linkedin }}) | [Contact]({{ site.me.contact_url }})
+[CV](./pdf/cv.pdf) |
+[Teaching](./teaching) |
+[Research](./research) |
+[Guides](./guides) |
+[GitHub](https://github.com/{{ site.me.github }}) |
+[LinkedIn](https://linkedin.com/in/{{ site.me.linkedin }}) |
+[Contact]({{ site.me.contact_url }})
 
 {{ site.me.summary }}
 
