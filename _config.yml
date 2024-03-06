@@ -20,6 +20,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  guides:
+    output: true
+    permalink: /:collection/:path/
 defaults:
   - scope:
       path: ""
@@ -31,6 +34,11 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: guide
 
 # Boilerplate for redirect support
 plugins:

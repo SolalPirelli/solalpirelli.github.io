@@ -19,26 +19,26 @@ others:
     doi: https://doi.org/10.1145/3098822.3098833
 ---
 
-## My Research Projects
+# My Research Projects
 
 Each project page contains a short blog post summarizing the project's goals, results, and lessons learned.
 
 {% assign sorted_research = site.research | sort_by: "date" | reverse %}
 {% for item in sorted_research %}
-### [{{ item.title }}](./{{ item.slug }})
+## [{{ item.title }}](./{{ item.slug }})
 *{{ item.authors }}*  
 {{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %}  
 {% if item.doi %} [DOI]({{ item.doi }}) / {% endif %} [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) {% if item.video %} / [Video]({{ item.video }}) {% endif %}
 {% endfor %}
 
 
-## Projects I've collaborated in
+# Projects I've collaborated in
 
 These are projects I was involved in but did not lead.  
 They're still cool, you should check them out!
 
 {% for item in page.others %}
-### {{ item.title }}
+## {{ item.title }}
 *{{ item.authors }}*  
 {{ item.venue }}  
 [DOI]({{ item.doi }}) / [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf)
