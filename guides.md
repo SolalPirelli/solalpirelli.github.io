@@ -7,6 +7,6 @@ layout: default
 
 {% assign sorted_guides = site.guides | sort_by: "order" %}
 {% for item in sorted_guides %}
-## [{{ item.title }}](./{{ item.slug }})
+## [{{ item.title }}](/guides/{{ item.slug }})
 {{ item.description }}
 {% endfor %}
