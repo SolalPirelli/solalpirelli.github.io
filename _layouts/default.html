@@ -14,17 +14,18 @@
 </head>
 <body>
   <div>
+    <nav>
+      <strong><a href="/">{{ site.me.name }}</a></strong>
+      <ul>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/teaching">Teaching</a></li>
+        <li><a href="/research">Research</a></li>
+        <li><a href="/guides">Guides</a></li>
+      </ul>
+    </nav>
+    <hr />
     {% if page.url != "/" %}
-      <nav>
-        <strong><a href="/">{{ site.me.name }}</a></strong>
-        <ul>
-          <li><a href="/">Blog</a></li>
-          <li><a href="/teaching">Teaching</a></li>
-          <li><a href="/research">Research</a></li>
-          <li><a href="/guides">Guides</a></li>
-        </ul>
-      </nav>
-      <hr />
+      <h1>{{ page.title }}</h1>
     {% endif %}
     {{ content }}
   </div>

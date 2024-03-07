@@ -1,6 +1,5 @@
 ---
 title: Teaching
-layout: default
 courses:
   - name: Software Engineering
     url: https://github.com/sweng-epfl/public
@@ -18,8 +17,6 @@ courses:
       during which students work on their assigned tasks, review each other's code, and have intermediate "standup" meetings to coordinate.
       _(Co-taught with Prof. George Candea)_
 ---
-
-# Teaching
 
 I have taught the following courses at EPFL.
 

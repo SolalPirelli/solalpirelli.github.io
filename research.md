@@ -1,6 +1,5 @@
 ---
 title: Research
-layout: default
 others:
   - title: Verifying Software Network Functions with No Verification Expertise
     venue: SOSP '19
@@ -18,8 +17,6 @@ others:
     slug: vignat
     doi: https://doi.org/10.1145/3098822.3098833
 ---
-
-# My Research Projects
 
 Each project page contains a short blog post summarizing the project's goals, results, and lessons learned.
 
