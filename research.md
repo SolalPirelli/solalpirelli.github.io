@@ -25,7 +25,7 @@ Each project page contains a short blog post summarizing the project's goals, re
 ## [{{ item.title }}](/research/{{ item.slug }})
 *{{ item.authors }}*  
 {{ item.venue }} {% if item.remarks %}; *{{ item.remarks }}* {% endif %}  
-{% if item.doi %} [DOI]({{ item.doi }}) / {% endif %} [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) {% if item.video %} / [Video]({{ item.video }}) {% endif %}
+{% if item.doi %} [DOI]({{ item.doi }}) / {% endif %} [Paper]({{ site.baseurl }}/pdf/{{ item.slug }}.pdf) / [Artifact]({{ item.artifact }}) {% if item.video %} / [Video]({{ item.video }}) {% endif %} / [Slides]({{ site.baseurl }}/slides/{{ item.slug }}.pptx)
 {% endfor %}
 
 
