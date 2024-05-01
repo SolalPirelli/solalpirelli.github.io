@@ -5,8 +5,7 @@
 
 [CV](./pdf/cv.pdf) |
 [GitHub](https://github.com/{{ site.me.github }}) |
-[LinkedIn](https://linkedin.com/in/{{ site.me.linkedin }}) |
-[Contact]({{ site.me.contact_url }})
+[LinkedIn](https://linkedin.com/in/{{ site.me.linkedin }})
 
 {{ site.me.summary }}
 

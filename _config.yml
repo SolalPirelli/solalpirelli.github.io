@@ -2,15 +2,16 @@ me:
   name: Solal Pirelli
   github: solalpirelli
   linkedin: solalpirelli
-  contact_url: https://people.epfl.ch/solal.pirelli
   summary: |-
+     I currently work at [Sonar](https://sonarsource.com) on static code analysis to help developers find potential bugs and keep their code clean.
+
      I co-taught EPFL's [Software Engineering](https://github.com/sweng-epfl/public) course,
      and the associated [Software Development Project](https://github.com/sweng-epfl/public/tree/main/project) course.
 
-     I research automated verification of software, making it more practical for [real-world code](/research/klint)
-     and showing that verifiability is synonymous with [performance](/research/tinynf) and [safety](/research/tinynf-langs).
+     I am interested in automated verification of software. I've made it more practical for [real-world code](/research/klint)
+     and shown that verifiability is synonymous with [performance](/research/tinynf) and [safety](/research/tinynf-langs).
 
-     I also work on reproducibility and fraud detection in science, as you can see in my blog below.
+     I also spend some of my free time on reproducibility and fraud detection in science, as you can see in my blog below.
 
 # Without this Jekyll will not output posts with a future date
 future: true
