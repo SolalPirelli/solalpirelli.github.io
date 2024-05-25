@@ -5,8 +5,8 @@ date: 2024-04-19
 venue: ICSE '24 SEET
 authors: S. Pirelli
 artifact: https://github.com/sweng-epfl/public
-#video:
-#doi:
+video: https://youtu.be/EzWTVLK_lNY
+doi: https://doi.org/10.1145/3639474.3640053
 ---
 
 Starting in the final years of my undergrad, and during my entire PhD, I went from being a teaching assistant in the pair of theory + practice courses
