@@ -5,7 +5,7 @@ description: Write good scientific papers as an engineering task with known tech
 hidden: true
 ---
 
-There are two kinds of great papers, (1) great work with great writing, and (2) okay work with great writing.
+There are two kinds of successful papers, (1) great work with great writing, and (2) okay work with great writing.
 Unfortunately, writing is generally accepted as a form of art, which holds science back as good artists are rare.
 In this guide, I present paper writing as an _engineering_ problem that you can solve by applying known techniques to consistently produce good papers.
 Using this approach helps me write clear papers, with reviews such as "with respect to clarity of thought and execution, this is the best paper I have read in a while".
