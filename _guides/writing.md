@@ -130,7 +130,7 @@ Sometimes multiple related sections can be summarized in a single paragraph, suc
 This obviates the need for a "roadmap" of the form "In the rest of this paper..." that is found in so many papers despite being a boring waste of space.
 
 **The first few sentences of the introduction should be a strong statement of the central contribution** to clearly position the paper.
-Give away the "punchline" of your paper immediately, a paper is not a thriller, people will read because they want to know the details.
+Give away the "punchline" of your paper immediately since a paper is not a thriller, people read because they want to know the details.
 Do not begin with philosophical platitudes or dictionary-style definitions.
 You can often make your introduction punchier by cutting the first sentence you write.
 
@@ -191,7 +191,7 @@ The results should be described in the style of a lab report, impartially descri
 
 **How you present results is a part of the story**, do not write a lab notebook with everything that happened in the order it happened.
 Order experiments by importance of their results, whether positive or negative.
-Explain any unusual results, and any missing results if you could not run some experiments that a reasonable would expect.
+Explain any unusual results, and any missing results if you could not run some experiments that a reasonable reader would expect.
 If your contributions or experiments changed after your first batch of experiments, such as adding more specific experiments to understand a phenomenon in more detail, you should describe such changes, as [Andreas Zeller points out](https://archive.ph/6Y4XB).
 
 **The validity of your results is the most important aspect**, much more than whether they support any hypotheses you have, so don't exclude poor results or inconclusive experiments.
@@ -211,7 +211,7 @@ Similarly, your limitations will be less damning if your experiments have many p
 
 **List the main threats to the validity of your work**, at least internal, construct, and external validity, though you could do more.
 _Internal_ validity is whether the effect you measured is linked to the cause you intended to vary.
-For instance, if you try to correlate patient outcomes after the fact to the kind of medicine they were prescribed, this link is threatened by sicker patients being prescribed stronger medicine, making sickness level is a hidden variable.
+For instance, if you try to correlate patient outcomes after the fact to the kind of medicine they were prescribed, this link is threatened by sicker patients being prescribed stronger medicine, making sickness level a hidden variable.
 _Construct_ validity is whether the low-level metrics you measured are representative of the high-level constructs you intended to measure.
 For instance, when measuring treatment effectiveness, the link between health measurements and the construct of medicine effectiveness is threatened by the placebo effect.
 _External_ validity is whether the findings are generalizable to other contexts, which is naturally in conflict with internal validity since more controlled experiments have clearer correlation links but weaker generalizability.
@@ -262,7 +262,7 @@ If you absolutely must comply with an externally-mandated process for data avail
 
 The same techniques for high-level structuring are useful for low-level writing.
 By limiting your options, you will consistently produce better writing even if the theoretical best is no longer achievable.
-Sentences, verbs, and words should all be simple and precise, without regard for artistic concerns such as avoiding repetition.
+Sentences, verbs, and nouns should all be simple and precise, without regard for artistic concerns such as avoiding repetition.
 Getting feedback is important, but you can go surprisingly far with your own feedback using a few techniques.
 
 
@@ -353,7 +353,7 @@ This applies even to your own past work, which you should challenge yourself to 
 
 It is unlikely that you are the sole author in your work, so keep good relationships with your coauthors and avoid unnecessary friction.
 
-**Compromise when you have to**, better writing is not worth losing professional relationships.
+**Compromise when you have to**, better writing is not worth losing professional relationships over.
 This is especially true if you are a grad student or postdoc and the coauthor who disagrees is your advisor.
 Pick your battles wisely.
 
@@ -363,7 +363,7 @@ This also applies to rendering graphs and converting images for publication, sin
 
 ---
 
-# Acknowledgements
+# Acknowledgments
 
 This guide was inspired by many sources I came across during my PhD, particularly [Simon Peyton Jones's "How to write a great research paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/).
 The four-sentence abstract structure is from [John Wilkes](https://john.e-wilkes.com/).
