@@ -175,7 +175,7 @@ Storytelling is particularly important here, as you can turn "a set of related c
 **Explain why you cannot achieve the same results in a simpler fashion**, or if you can, do it and then come back to writing.
 One way to do so is to start with the simplest possible technique, progressively showing that it cannot work, and refine it.
 However, state upfront if a technique you present is not your actual contribution, and only do so if understanding such a simpler technique is useful to understand the rest of the paper.
-Do not argue that your work is good or simple because you intended it to be so, remember that red pandas intend to scare predators when standing up, yet they just look adorable.
+Do not argue that your work is good or simple because you intended it to be so, remember that red pandas intend to scare predators when standing up but they just look adorable.
 
 ![Standing red panda](/img/standing_red_panda.jpg)
 _The red panda's stance is designed to scare its opponent! It's not very effective..._
