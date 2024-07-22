@@ -1,8 +1,7 @@
 ---
 title: Writing
 order: 1
-description: Write good scientific papers as an engineering task with known techniques, rather than viewing writing as an art.
-hidden: true
+description: Write good scientific papers as an engineering task using known techniques, not as an art form reserved to a select few.
 ---
 
 There are two kinds of successful papers, (1) great work with great writing, and (2) okay work with great writing.
