@@ -49,7 +49,7 @@ Do not spend a year on engineering to save a month on storytelling.
 
 ## Writing continuously
 
-Your workflow should be to write, do research, get feedback, repeating this loop as many times as possible.
+Your workflow should be to write, do research, get feedback, and repeat as many times as possible.
 
 **Writing is a part of doing research**, not a separate activity after the fact.
 Writing helps you decide what work lies ahead and avoid unnecessary work that does not belong to your story.
