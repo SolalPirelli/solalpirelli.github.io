@@ -101,7 +101,7 @@ This anti-pattern is frequently found in existing processes, when people complai
 
 **Formality Factory.**
 Some people love formality. I'm one of them. But this can degenerate into constantly inventing new rules and formalizing things that do not need formalizing.
-Sooner or later this backfires, because nobody can keep track of all of the rules, and obeying these rules impose too much overhead and drain the fun out of organizing.
+Sooner or later this backfires, because nobody can keep track of all of the rules, and obeying these rules imposes too much overhead and drains the fun out of organizing.
 This can also happen with "committees", "task forces", "subcommittees", and so on.
 
 **Ghost Constraints.**
